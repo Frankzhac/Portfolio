@@ -4,9 +4,9 @@ class Resume extends Component {
     render() {
         return (
             <div>
-                <h1>
+                {/* <h1>
                     Resume Page
-                </h1>
+                </h1> */}
             </div>
         )
     }
