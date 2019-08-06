@@ -9,25 +9,26 @@ class App extends Component {
     return (
       <div style={{height: '300px', position: 'relative'}}>
           <Layout fixedHeader>
-              <Header title={<span><span style={{ color: '#ddd' }}></span><strong>My Portfolio</strong></span>}>
+              <Header className="header-color" title={<span><span style={{ color: '#ddd' }}></span><strong>My Portfolio</strong></span>} scroll>
                   <Navigation>
-                      <a href="/">Resume</a>
-                      <a href="/">Link</a>
-                      <a href="/">Link</a>
-                      <a href="/">Link</a>
+                      <Link to="/about">About</Link>
+                      <Link to="/projects">Work</Link>
+                      <Link to="/resume">Resume</Link>
+                      <Link to="/contact">Contact</Link>
                   </Navigation>
               </Header>
               <Drawer title="Title">
                   <Navigation>
-                      <a href="/">Link</a>
-                      <a href="/">Link</a>
-                      <a href="/">Link</a>
-                      <a href="/">Link</a>
+                      <Link to="/about">About</Link>
+                      <Link to="/projects">Work</Link>
+                      <Link to="/resume">Resume</Link>
+                      <Link to="/contact">Contact</Link>
                   </Navigation>
               </Drawer>
               <Content />
-                <Main />
+                
           </Layout>
+          <Main />
       </div>
     );
   } 
