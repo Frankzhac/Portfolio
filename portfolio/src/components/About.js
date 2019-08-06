@@ -4,9 +4,9 @@ class About extends Component {
     render() {
         return (
             <div>
-                <h1>
+                {/* <h1>
                     About Page
-                </h1>
+                </h1> */}
             </div>
         )
     }

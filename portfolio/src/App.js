@@ -11,7 +11,7 @@ class App extends Component {
           <Layout fixedHeader>
               <Header className="header-color" title={<span><span style={{ color: '#ddd' }}></span><strong>My Portfolio</strong></span>} scroll>
                   <Navigation>
-                      <Link to="/about">About</Link>
+                      {/* <Link to="/about">About</Link> */}
                       <Link to="/projects">Work</Link>
                       <Link to="/resume">Resume</Link>
                       <Link to="/contact">Contact</Link>
@@ -19,7 +19,7 @@ class App extends Component {
               </Header>
               <Drawer title="Title">
                   <Navigation>
-                      <Link to="/about">About</Link>
+                      {/* <Link to="/about">About</Link> */}
                       <Link to="/projects">Work</Link>
                       <Link to="/resume">Resume</Link>
                       <Link to="/contact">Contact</Link>
